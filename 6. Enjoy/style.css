@@ -7,7 +7,7 @@
     box-sizing: border-box;
     /* border: 1px solid;    */
 }
-#header{
+#back-ground{
     background-color:  #ebe3cd;
 }
 .container {
@@ -38,7 +38,7 @@ a {
     color: #ebe3cd;
     padding: 10px 30px;
 }
-li .sign-up {
+.sign-up {
     color: rgb(15, 150, 109);
     padding: 10px 0px;
 }
@@ -105,4 +105,22 @@ button {
 .window1 {
     top: 300px;
     right: 570px;
+}
+.center {
+    text-align: center;
+}
+.covid {
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.we {
+    padding: 10px 0px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.read {
+    padding: 10px 20px;
+    background-color: rgb(15, 150, 109);
+    border-color:  rgb(15, 150, 109);
 }
