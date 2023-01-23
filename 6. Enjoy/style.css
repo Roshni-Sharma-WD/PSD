@@ -15,7 +15,7 @@
     margin: 0 auto;
 }
 nav {
-    padding: 10px 50px;
+    padding: 20px 50px;
     background-color:  #12202f;
     border-radius: 40px;
 }
@@ -87,7 +87,7 @@ button {
     z-index: 1;
 }
 .lamp {
-    top: 109px;
+    top: 129px;
     right: 400px;
 }
 .ilustration {
