@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+#header {
+    background-color: #ebe3cd;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.container-wrapper {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.navbar {
+    text-align: center;
+    padding: 20px 40px;
+    background-color: black;
+    border-radius: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+img {
+    width: 100%;
+}
+.navtext {
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.row {
+    display: flex;
+}
+.col-50 {
+    width: 50%;
+}
+.maintext {
+    padding: 80px 0px;
+}
+.bigtext {
+    padding: 100px 100px 20px 0px;
+}
+h1 {
+    font-size: 60px;
+    padding: 50px 100px 0px 0px;
+}
+.para {
+    padding: 10px 100px 10px 0px;
+}
+.smalltext {
+    padding-right: 100px;
+}
+.btn {
+    padding: 20px 0px;
+}
+button {
+    border-radius: 28px;
+    background-color: #df581e;
+    border: 2px solid #df581e;
+    color: white;
+    padding: 10px 20px;
+}
+.posi-rel {
+    position: relative;
+}
+.posi-ab {
+    position: absolute;
+}
+.obj1 {
+    top: 115px;
+    right: 300px;
+}
+.obj2 {
+    top: 370px;
+    right: 500px;
+}
+.obj3 {
+    top: 370px;
+    right: 20px;
+}
+.obj4 {
+    top: 618px;
+    left: 400px;
+}
+.obj5 {
+    top: 460px;
+    right: -10px;
+}
+#section {
+    background-color: #ebe3cd;
+}
+.date {
+    margin-top: 30px ;
+    background-color: #faf8ef;
+    border-radius: 5px;
+}
+.deli {
+    font-size: 20px;
+    color: #eaa73b;
+    padding: 20px;
+}
+.center {
+    text-align: center;
+}
+h2{
+    font-size: 35px;
+    padding: 10px 0px;
+}
+.row-wrapper {
+    gap: 60px;
+    display: flex;
+    padding: 30px;
+}
+.col-30 {
+    width: 33.33%;
+    background-color: #faf8ef;
+    border-radius: 35px;
+}
+.img {
+    padding: 40px 130px 0px 130px;
+}
+.text {
+    padding: 20px 30px 10px 30px;
+    text-align: center; 
+}

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: #12202f;
+    box-sizing: border-box;
+    /* border: 1px solid;    */
+}
+#header{
+    background-color:  #ebe3cd;
+}
+.container {
+    width: 1450px;
+    margin: 0 auto;
+}
+nav {
+    padding: 10px 50px;
+    background-color:  #12202f;
+    border-radius: 40px;
+}
+.logo h2 {
+    color: #ebe3cd;
+    font-size: 30px;
+}
+nav .row {
+    display: flex;
+    color: #ebe3cd;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+.nav-text{
+    display: flex;
+    align-items: center;
+}
+a {
+    color: #ebe3cd;
+    padding: 10px 30px;
+}
+li .sign-up {
+    color: rgb(15, 150, 109);
+    padding: 10px 0px;
+}
+.row {
+    display: flex;
+}
+.col-50 {
+    width: 50%;
+}
+.main-text {
+    padding-right: 100px;
+}
+div[class="big-text"]{
+    font-size: 40px;
+}
+div h2 {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.para {
+    font-size: 17px;
+    padding-right: 100px;
+    font-weight: bold;
+}
+button {
+    border-radius: 28px;
+    background-color: #df581e;
+    border: 2px solid #df581e;
+    color: white;
+    padding: 10px 30px;
+}
+.btn {
+    gap: 50px;
+    font-weight: bold;
+    align-items: center;
+}
+
+/* position started here  */
+.posi-rel {
+    position: relative;
+}
+.posi-ab {
+    position: absolute;
+}
+.z-1 {
+    z-index: 1;
+}
+.lamp {
+    top: 109px;
+    right: 400px;
+}
+.ilustration {
+    top: 400px;
+    right: 50px;
+}
+.plant {
+    top: 556px;
+    left: 500px;
+}
+.window {
+    top: 300px;
+    right: 80px;
+}
+.window1 {
+    top: 300px;
+    right: 570px;
+}
