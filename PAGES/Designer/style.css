@@ -3,5 +3,165 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
-    border: 1px solid;
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid; */
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 30px 0px 100px 0px;
+}
+
+section {
+    background-color: #c8b396;
+    padding-bottom: 30px;
+}
+nav {
+    padding: 20px 0px 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar {
+    display: flex;
+}
+.logo img {
+    height: 60px;
+}
+.searchbar {
+    padding: 0px 10px;
+    margin: 0px 20px 30px 40px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+}
+i {
+    color: #fff;
+}
+.searchbar input {
+    background-color: #c8b396;
+    border-radius: 20px;
+    padding: 8px;
+    border: none;
+}
+.menutext ul {
+    display: flex;
+}
+ul li {
+    padding: 10px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.row {
+    display: flex;
+}
+.col-50 {
+    width: 50%;
+}
+.h2text h2 {
+    padding: 0px 50px;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+.h1text h1 {
+    padding-top: 10px;
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+}
+.ptext {
+    padding: 0px 100px 0px 0px;
+    margin: 0px 100px 0px 0px;
+}
+.ptext p {
+    padding: 20px 100px 20px 0px;
+    margin: 0px 20px 0px 0px;
+}
+button {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: #000;
+    border-radius: 35px;
+}
+.col-50 img {
+    width: 10%;
+    height: 30px;
+}
+span {
+    font-size: 20px;
+    margin: 10px;
+}
+.posi-rel {
+    position: relative;
+}
+.posi-ab {
+    position: absolute;
+}
+.obj {
+    width: 7%;
+    top: 200px;
+    right: 280px;
+}
+.obj1{
+    width: 42%;
+    top: 120px;
+    right: 0px;
+}
+.obj2 {
+    left: -120px;
+    top: 150px;
+    width: 12%;
+    height: 180px;
+}
+.obj3{
+    width: 2%;
+    top: 190px;
+    right: 85px;
+}
+.obj4{
+    width: 2%;
+    top: 190px;
+    right: 120px;
+}
+.obj5{
+    width: 2%;
+    top: 190px;
+    right: 155px;
+}
+.obj6{
+    width: 2%;
+    top: 190px;
+    right: 190px;
+}
+.obj7{
+    width: 2%;
+    top: 190px;
+    right: 225px;
+} 
+.obj8 {
+    right: 80px;
+    top: 230px;
+    width: 40%;
+    z-index: 2;
+    border-radius: 250px 0;
+}
+.obj9 {
+    width: 5%;
+    height: 100px;
+    top: 647px;
+    left: 300px;
+}
+.obj10 {
+    width: 2.4%;
+    top: 103px;
+    right: 630px;
+}
+.obj11{
+    width: 20%;
+    right: 450px;
+    top: 500px;
 }
