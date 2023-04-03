@@ -1,0 +1,23 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 1px solid;
+    list-style-type: none;
+}
+#back-ground {
+    background-image: url(img/background.webp);
+}
+.conatainer {
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.navmenu{
+    display: flex;
+    justify-content: space-evenly;
+}
